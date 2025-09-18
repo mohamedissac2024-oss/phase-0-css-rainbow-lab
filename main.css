@@ -1,4 +1,56 @@
 div {
+
+
+
+/* make sure there's no default margin so bars fill top-to-bottom nicely */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Give each rainbow-bar a height so you can see them */
+.rainbow-bar {
+  height: 14.2857%; /* 100% / 7 bars ≈ 14.2857% each */
+  border-top: 10px solid #000; /* optional border maybe from lab instructions */
+}
+
+/* Then style each color by id */
+
+#red {
+  border-top-color: #f00;
+}
+
+#orange {
+  border-top-color: #ffa500;
+}
+
+#yellow {
+  border-top-color: #ff0;
+}
+
+#green {
+  border-top-color: #00bc3f;
+}
+
+#blue {
+  border-top-color: #06f;
+}
+
+#indigo {
+  border-top-color: #8a2be2;
+}
+
+#violet {
+  border-top-color: #d300c9;
+}
+
+
+
+
+
+
+
+
   border: 20px solid #000; /* this is short hand for setting
                             the border's width, its type, and color */
   display: inline-block; /* a way of positioning elements */
